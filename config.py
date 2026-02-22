@@ -29,3 +29,4 @@ AGENT_CONFIG = {
 SKILLS_PATH = "./skills"
 MCP_SERVERS_PATH = "./mcp_servers"
 
+

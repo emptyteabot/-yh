@@ -41,3 +41,8 @@ python-multipart>=0.0.6
 aiohttp>=3.9.1
 httpx>=0.26.0
 
+# 变现系统专用依赖
+scipy>=1.11.0  # 统计学分析（模型评测）
+scikit-learn>=1.3.0  # 机器学习工具
+
+

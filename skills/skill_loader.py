@@ -359,3 +359,4 @@ def list_skills() -> Dict[str, str]:
         for name, skill in SKILL_REGISTRY.items()
     }
 
+

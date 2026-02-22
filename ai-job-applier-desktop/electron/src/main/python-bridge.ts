@@ -82,6 +82,17 @@ export class PythonBridge {
 
   async call(endpoint: string, data: any): Promise<any> {
     try {
+      // 如果是 FormData，直接发送
+      if (data instanceof FormData || (data && data.constructor && data.constructor.name === 'FormData')) {
+        const response = await axios.post(`${this.baseUrl}${endpoint}`, data, {
+          headers: {
+            'Content-Type': 'multipart/form-data'
+          }
+        });
+        return response.data;
+      }
+
+      // 否则发送 JSON
       const response = await axios.post(`${this.baseUrl}${endpoint}`, data);
       return response.data;
     } catch (error: any) {

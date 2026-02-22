@@ -1,0 +1,5 @@
+{
+  "day_3": "\n主题：Re: {original_subject}\n\nHi {name},\n\n上次邮件不知道你看到没有？\n\n我们可以为{company}提供：\n- {service_1}\n- {service_2}\n\n提供免费的{free_offer}，感兴趣吗？\n\nBest,\n{your_name}\n",
+  "day_7": "\n主题：Re: {original_subject}\n\nHi {name},\n\n最后一次打扰。\n\n如果你对{service}感兴趣，本周可以安排一个15分钟的电话。\n\n我会为你准备：\n- 针对{company}的具体分析\n- 预期ROI计算\n\n回复即可安排。\n\nBest,\n{your_name}\n",
+  "day_10": "\n主题：Re: {original_subject}\n\nHi {name},\n\n理解你可能很忙。\n\n如果未来有需要，随时联系我。\n\n我的联系方式：\n- 邮箱：{your_email}\n- LinkedIn：{your_linkedin}\n\n祝{company}一切顺利！\n\nBest,\n{your_name}\n"
+}

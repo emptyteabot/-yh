@@ -350,3 +350,4 @@ if __name__ == "__main__":
     print(REALITY_CHECK)
     print("\n" + IMMEDIATE_ACTION)
 
+

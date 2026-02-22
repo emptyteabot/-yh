@@ -11,9 +11,10 @@ import {
   RobotOutlined,
   ThunderboltOutlined,
   CloudOutlined,
+  RocketOutlined,
 } from '@ant-design/icons';
 import Dashboard from './pages/Dashboard';
-import ResumeUpload from './pages/ResumeUpload';
+import ResumeUploadSimple from './pages/ResumeUploadSimple';
 import JobSearch from './pages/JobSearch';
 import AutoApply from './pages/AutoApply';
 import Records from './pages/Records';
@@ -21,6 +22,7 @@ import Login from './pages/Login';
 import ResumeAnalysis from './pages/ResumeAnalysis';
 import SmartApply from './pages/SmartApply';
 import OpenClawSearch from './pages/OpenClawSearch';
+import BossAutoApply from './pages/BossAutoApply';
 
 const { Header, Sider, Content } = Layout;
 
@@ -55,6 +57,7 @@ const AppContent: React.FC = () => {
       icon: <SendOutlined />,
       label: '投递',
       children: [
+        { key: '/boss-auto-apply', icon: <RocketOutlined />, label: 'Boss 自动投递' },
         { key: '/apply', label: '自动投递' },
         { key: '/smart-apply', icon: <ThunderboltOutlined />, label: '智能投递' },
       ]
@@ -100,10 +103,11 @@ const AppContent: React.FC = () => {
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/resume" element={<ResumeUpload />} />
+            <Route path="/resume" element={<ResumeUploadSimple />} />
             <Route path="/resume-analysis" element={<ResumeAnalysis />} />
             <Route path="/search" element={<JobSearch />} />
             <Route path="/openclaw-search" element={<OpenClawSearch />} />
+            <Route path="/boss-auto-apply" element={<BossAutoApply />} />
             <Route path="/apply" element={<AutoApply />} />
             <Route path="/smart-apply" element={<SmartApply />} />
             <Route path="/records" element={<Records />} />

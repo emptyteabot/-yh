@@ -23,3 +23,4 @@ echo "[3/3] 启动系统..."
 echo ""
 python3 main.py
 
+

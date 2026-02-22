@@ -1,0 +1,15 @@
+{
+  "companies": [
+    {
+      "id": "real_1",
+      "source": "AI Singapore",
+      "company": "【待填写】",
+      "product": "【待填写】",
+      "website": "【待填写】",
+      "description": "【待填写】",
+      "estimated_funding": "【待填写】",
+      "pain_point": "【算力成本/安全审计/政府补贴】",
+      "priority": "高"
+    }
+  ]
+}

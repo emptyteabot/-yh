@@ -44,3 +44,4 @@ class BaseAgent(ABC):
 你掌握的技能：{', '.join(self.skills)}
 """
 
+

@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-02-22T23:31:42.371092",
+  "metrics": {
+    "emails_sent": 50,
+    "replies_received": 6,
+    "reply_rate": "12.0%",
+    "meetings_scheduled": 3,
+    "meeting_conversion": "50.0%",
+    "proposals_sent": 3,
+    "deals_closed": 3,
+    "close_rate": "100.0%",
+    "total_revenue": "$880,000",
+    "avg_deal_size": "$293,333"
+  },
+  "timeline": {
+    "start_date": "2026-02-22T23:31:42.371124",
+    "end_date": "2026-03-24T23:31:42.371126",
+    "duration": "30天"
+  },
+  "next_steps": [
+    "1. 等待客户付款",
+    "2. 开始执行服务",
+    "3. 继续发送下一批邮件",
+    "4. 扩大规模"
+  ]
+}

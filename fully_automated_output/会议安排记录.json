@@ -1,0 +1,41 @@
+[
+  {
+    "client": "RetailAI Pro 10",
+    "scheduled_at": "2026-03-01T23:31:42.368699",
+    "duration": "30分钟",
+    "meeting_link": "https://zoom.us/j/392648900",
+    "status": "已确认",
+    "agenda": [
+      "1. 安全风险评估",
+      "2. EU AI Act合规要求",
+      "3. 审计流程说明",
+      "4. 定价与时间表"
+    ]
+  },
+  {
+    "client": "LogiAI 8",
+    "scheduled_at": "2026-03-04T23:31:42.368729",
+    "duration": "30分钟",
+    "meeting_link": "https://zoom.us/j/501812919",
+    "status": "已确认",
+    "agenda": [
+      "1. 政府补贴政策解读",
+      "2. 申请资格评估",
+      "3. 申请流程说明",
+      "4. 预期补贴金额"
+    ]
+  },
+  {
+    "client": "RetailAI Pro 9",
+    "scheduled_at": "2026-03-04T23:31:42.368751",
+    "duration": "30分钟",
+    "meeting_link": "https://zoom.us/j/703787339",
+    "status": "已确认",
+    "agenda": [
+      "1. 安全风险评估",
+      "2. EU AI Act合规要求",
+      "3. 审计流程说明",
+      "4. 定价与时间表"
+    ]
+  }
+]

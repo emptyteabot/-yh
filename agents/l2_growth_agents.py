@@ -489,3 +489,4 @@ class CommunityOperator(BaseAgent):
             "expected_response_rate": 0.25
         }
 
+
