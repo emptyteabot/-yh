@@ -1,0 +1,21 @@
+{
+  "applied_jobs": [
+    "f9bf5fd112de7b12e533899590ef5dcc",
+    "1b1a67f33dacf25ac6b1b05173ac3488"
+  ],
+  "job_details": {
+    "1b1a67f33dacf25ac6b1b05173ac3488": {
+      "job_title": "Python开发",
+      "company": "A公司",
+      "applied_at": "2026-02-22T00:36:44.782188",
+      "job_url": ""
+    },
+    "f9bf5fd112de7b12e533899590ef5dcc": {
+      "job_title": "Rust开发",
+      "company": "C公司",
+      "applied_at": "2026-02-22T00:36:44.782782",
+      "job_url": ""
+    }
+  },
+  "updated_at": "2026-02-22T00:36:44.783181"
+}
